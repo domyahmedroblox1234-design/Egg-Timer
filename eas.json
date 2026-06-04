@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "production": {
+      "channel": "production"
+    },
+    "preview": {
+      "channel": "preview"
+    },
+    "development": {
+      "channel": "development",
+      "distribution": "internal"
+    },
+    "android": {
+      "release": {
+        "android": {
+          "buildType": "apk"
+        }
+      },
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccount": "./service-account.json",
+        "track": "production"
+      }
+    }
+  }
+}
