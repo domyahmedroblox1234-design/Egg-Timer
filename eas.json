@@ -35,3 +35,13 @@
     }
   }
 }
+{
+     "build": {
+       "preview": {
+         "distribution": "store",
+         "android": {
+           "buildType": "apk"
+         }
+       }
+     }
+   }
